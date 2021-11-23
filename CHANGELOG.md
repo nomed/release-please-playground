@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://github.com/chingor13/release-please-playground/compare/release-please-playground-v1.0.1...release-please-playground-v1.0.2) (2021-11-23)
+
+
+### Bug Fixes
+
+* bootstrap releases for path: . ([#6](https://github.com/chingor13/release-please-playground/issues/6)) ([18c5488](https://github.com/chingor13/release-please-playground/commit/18c54885923fedc6871f9f82baa247d0d41d6ecb))
+
 ### [1.0.1](https://github.com/chingor13/release-please-playground/compare/release-please-playground-v1.0.0...release-please-playground-v1.0.1) (2021-11-23)
 
 
