@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chingr</groupId>
+  <artifactId>java1</artifactId>
+  <packaging>pom</packaging>
+  <version>0.0.0</version><!-- {x-version-update:java1:current} -->
+  <name>Java 1</name>
+  <url>https://github.com/chingor13/release-please-playgroud</url>
+  <description>
+    Testing Library
+  </description>
+  <developers>
+    <developer>
+      <id>chingor13</id>
+      <name>Jeff Ching</name>
+      <email>chingor@google.com</email>
+      <organization>Google</organization>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:chingor13/release-please-playgroud.git</connection>
+    <developerConnection>scm:git:git@github.com:chingor13/release-please-playgroud.git
+    </developerConnection>
+    <url>https://github.com/chingor13/release-please-playgroud</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <issueManagement>
+    <url>https://github.com/chingor13/release-please-playgroud/issues</url>
+    <system>GitHub Issues</system>
+  </issueManagement>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>sonatype-nexus-snapshots</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>sonatype-nexus-staging</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- Template values used in site generation -->
+    <site.installationModule>${project.artifactId}</site.installationModule>
+  </properties>
+</project>
