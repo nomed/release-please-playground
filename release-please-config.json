@@ -1,0 +1,10 @@
+{
+  "packages": {
+    ".": {
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "CHANGELOG.md",
+      "versioning": "default"
+    }
+  }
+}
