@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/chingor13/release-please-playground/compare/release-please-playground-v1.0.2...release-please-playground-v1.1.0) (2021-12-29)
+
+
+### Features
+
+* add Java1 library ([#9](https://github.com/chingor13/release-please-playground/issues/9)) ([0d15018](https://github.com/chingor13/release-please-playground/commit/0d150184ddfff44e0256baa3834ab20d4dfeaef0))
+
 ### [1.0.2](https://github.com/chingor13/release-please-playground/compare/release-please-playground-v1.0.1...release-please-playground-v1.0.2) (2021-11-23)
 
 
