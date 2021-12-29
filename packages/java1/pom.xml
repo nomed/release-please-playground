@@ -58,5 +58,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- Template values used in site generation -->
     <site.installationModule>${project.artifactId}</site.installationModule>
+    <foo.bar>asdf</foo.bar>
   </properties>
 </project>
