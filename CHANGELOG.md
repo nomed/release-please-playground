@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://github.com/chingor13/release-please-playground/compare/release-please-playground-v1.1.0...release-please-playground-v1.1.1) (2021-12-29)
+
+
+### Bug Fixes
+
+* update property ([#13](https://github.com/chingor13/release-please-playground/issues/13)) ([7ab7bcf](https://github.com/chingor13/release-please-playground/commit/7ab7bcf4dd9eaca1d3ebc30d7e8f3a414c6d58cf))
+
 ## [1.1.0](https://github.com/chingor13/release-please-playground/compare/release-please-playground-v1.0.2...release-please-playground-v1.1.0) (2021-12-29)
 
 
