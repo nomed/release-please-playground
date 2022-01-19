@@ -6,7 +6,7 @@ on:
 name: ci
 jobs:
   units:
-    if: github.repository == 'chingor13/release-please-playground'
+    if: false
     runs-on: ubuntu-latest
     steps:
       - run: echo "running"
