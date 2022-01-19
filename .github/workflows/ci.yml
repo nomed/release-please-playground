@@ -1,0 +1,12 @@
+on:
+  pull_request:
+    branches:
+      - main
+
+name: ci
+jobs:
+  units:
+    if: github.repository == 'chingor13/release-please-playground'
+    runs-on: ubuntu-latest
+    steps:
+      - echo "running"
