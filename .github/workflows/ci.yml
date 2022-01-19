@@ -9,4 +9,4 @@ jobs:
     if: github.repository == 'chingor13/release-please-playground'
     runs-on: ubuntu-latest
     steps:
-      - echo "running"
+      - run: echo "running"
