@@ -14,7 +14,7 @@
   "plugins": [
     {
       "type": "maven-workspace",
-      "considerAllPackages": true
+      "considerAllArtifacts": true
     }
   ]
 }
