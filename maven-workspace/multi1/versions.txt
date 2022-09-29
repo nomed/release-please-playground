@@ -1,7 +1,7 @@
 # Format:
 # module:released-version:current-version
 
-multi1-bom:1.1.2:1.1.2
-multi1:1.1.2:1.1.2
-multi1-sub1:2.2.3:2.2.3
-multi1-sub2:3.3.4:3.3.4
+multi1-bom:1.1.2:1.1.3-SNAPSHOT
+multi1:1.1.2:1.1.3-SNAPSHOT
+multi1-sub1:2.2.3:2.2.4-SNAPSHOT
+multi1-sub2:3.3.4:3.3.5-SNAPSHOT

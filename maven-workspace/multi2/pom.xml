@@ -2,5 +2,5 @@
 <project>
   <groupId>com.google.example</groupId>
   <artifactId>multi2-parent</artifactId>
-  <version>0.1.0</version><!-- {x-version-update:multi2:current} -->
+  <version>0.1.1-SNAPSHOT</version><!-- {x-version-update:multi2:current} -->
 </project>
