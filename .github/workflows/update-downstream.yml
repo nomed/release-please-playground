@@ -34,5 +34,6 @@ jobs:
           description: Updates pip lockfile with latest releasetool version
           title: 'fix(deps): update releasetool'
           message: 'fix(deps): update releasetool'
+          branch: update-releasetool
           primary: rt-lock-hashes
           git_dir: '.'
