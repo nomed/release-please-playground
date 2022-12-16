@@ -7,6 +7,8 @@ on:
 jobs:
   update-release-trigger-bot:
     runs-on: ubuntu-latest
+    # run only on pull_request 
+    if: github.event_name !== 'pull_request' || (github.event.action === 'labeled' && github.event.label.name === 'autorelease: published')
     steps:
       - name: Checkout repo-automation-bots
         uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b # v3
