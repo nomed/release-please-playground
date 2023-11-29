@@ -13,7 +13,7 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@dev/rollup
+      - uses: google-github-actions/release-please-action@dev/v4
         with:
           release-type: node
           package-name: release-please-playground
