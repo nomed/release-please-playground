@@ -2,5 +2,5 @@
 <project>
   <groupId>com.google.example</groupId>
   <artifactId>multi1-sub2</artifactId>
-  <version>3.4.0</version><!-- {x-version-update:multi1-sub2:current} -->
+  <version>3.4.1-SNAPSHOT</version><!-- {x-version-update:multi1-sub2:current} -->
 </project>

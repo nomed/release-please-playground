@@ -2,25 +2,25 @@
 <project>
   <groupId>com.google.example</groupId>
   <artifactId>my-bom</artifactId>
-  <version>0.1.1-SNAPSHOT</version><!-- {x-version-update:multi1-bom:current} -->
+  <version>0.1.1</version><!-- {x-version-update:multi1-bom:current} -->
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>com.google.example</groupId>
         <artifactId>multi1-bom</artifactId>
-        <version>1.1.1</version>
+        <version>1.2.1-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>com.google.example</groupId>
         <artifactId>multi1-sub1</artifactId>
-        <version>2.2.2</version>
+        <version>2.3.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>com.google.example</groupId>
         <artifactId>multi1-sub2</artifactId>
-        <version>3.3.3</version>
+        <version>3.4.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>com.google.example</groupId>
