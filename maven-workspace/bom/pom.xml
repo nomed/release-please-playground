@@ -2,7 +2,7 @@
 <project>
   <groupId>com.google.example</groupId>
   <artifactId>my-bom</artifactId>
-  <version>0.1.2</version><!-- {x-version-update:multi1-bom:current} -->
+  <version>0.1.3-SNAPSHOT</version><!-- {x-version-update:multi1-bom:current} -->
   <dependencyManagement>
     <dependencies>
       <dependency>

@@ -1,4 +1,4 @@
 # Format:
 # module:released-version:current-version
 
-my-bom:1.2.5:1.2.5
+my-bom:1.2.5:1.2.6-SNAPSHOT
