@@ -10,9 +10,17 @@ permissions:
 name: release-please
 
 jobs:
-  release-please:
+  rp-tag:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@dev/v4
         with:
           release-type: node
+          skip-github-pull-request: true
+  rp-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@dev/v4
+        with:
+          release-type: node
+          skip-github-release: true
