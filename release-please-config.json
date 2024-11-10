@@ -1,14 +1,15 @@
 {
   "release-type": "java-yoshi-mono-repo",
-  "versioning": "always-bump-minor",
-  "separate-pull-requests": false,
-  "include-component-in-tag": false,
-  "group-pull-request-title-pattern": "chore(${branch}): release ${version}",
+  "separate-pull-requests": false,  
   "packages": {
-    "maven-workspace": {},
-    ".":  {
-      "release-type": "node"
+    "maven-workspace/bom": {
+      "package-name": "bom"
+    },
+    "maven-workspace/multi1": {
+      "package-name": "multi1"
+    },
+    "maven-workspace/multi2": {
+      "package-name": "multi2"
     }
   }
-  
 }
