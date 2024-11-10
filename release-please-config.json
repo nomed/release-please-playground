@@ -2,13 +2,13 @@
   "release-type": "java-yoshi",
   "packages": {
     "maven-workspace/bom": {
-      "component": "bom"
+      "package-name": "bom"
     },
     "maven-workspace/multi1": {
-      "component": "multi1"
+      "package-name": "multi1"
     },
     "maven-workspace/multi2": {
-      "component": "multi2"
+      "package-name": "multi2"
     }
   },
   "plugins": [
