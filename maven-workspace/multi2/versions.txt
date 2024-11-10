@@ -5,3 +5,4 @@ multi2-bom:1.1.2:1.1.3-SNAPSHOT
 multi2:1.1.2:1.1.3-SNAPSHOT
 multi2-sub1:2.2.3:2.2.4-SNAPSHOT
 multi2-sub2:3.3.4:3.3.5-SNAPSHOT
+multi1-bom:1.2.0:1.2.1-SNAPSHOT
