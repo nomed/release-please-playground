@@ -1,0 +1,20 @@
+{
+  "release-type": "java-yoshi",
+  "packages": {
+    "maven-workspace/bom": {
+      "package-name": "bom"
+    },
+    "maven-workspace/multi1": {
+      "package-name": "multi1"
+    },
+    "maven-workspace/multi2": {
+      "package-name": "multi2"
+    }
+  },
+  "plugins": [
+    {
+      "type": "maven-workspace",
+      "considerAllArtifacts": true
+    }
+  ]
+}
