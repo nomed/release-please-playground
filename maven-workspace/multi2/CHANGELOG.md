@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/nomed/release-please-playground/compare/multi2-v0.2.0...multi2-v0.3.0) (2024-11-10)
+
+
+### Features
+
+* update release-please configuration and add versioning for multi1 and multi2 projects ([c40f392](https://github.com/nomed/release-please-playground/commit/c40f3926d31235569c8f8e922c65889c426046a0))
+
 ## [0.2.0](https://github.com/nomed/release-please-playground/compare/multi2-v0.1.0...multi2-v0.2.0) (2024-11-10)
 
 
