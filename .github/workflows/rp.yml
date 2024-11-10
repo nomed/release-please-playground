@@ -8,7 +8,6 @@ permissions:
   pull-requests: write
 
 name: release-please
-
 jobs:
   rp-tag:
     runs-on: ubuntu-latest
